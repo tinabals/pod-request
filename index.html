@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;700&display=swap" rel="stylesheet">
+  <link href="index.css" rel="stylesheet" />
+  
+  <title>Frontend Mentor | Pod request access landing page</title>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <img src="assets/desktop/logo.svg" alt="logo" />
+    </header>
+    <main>
+      <section class="flex-container">
+        <div class="subscribe">
+          <p class="publish-text">
+            Publish your podcasts <span class="display-block"> everywhere.</span> 
+          </p>
+          
+          <p class="publish-text-two">
+            Upload your audio to Pod with a single click. We’ll <span class="block">
+              then distribute your podcast to Spotify, Apple
+            </span>
+            <span class="block">
+              Podcasts, Google Podcasts, Pocket Casts and more!
+            </span>
+          </p>
+  
+          <div class="email">
+            <input class="email-input" type="email" placeholder="Email address" />
+            <p class="button  form" onclick="validateEmail()" >Request access</p>
+          </div>
+          <p class="error-message"></p>
+  
+        </div>
+        <div class="image-container">
+          <img class="picture-host" src="assets/desktop/image-host.jpg" alt="a picture of the host" />
+        </div>
+      </section>
+      <section class="section-two flex-container">
+        <img src="/assets/desktop/spotify.svg" alt="spotify icon" />
+        <img src="/assets/desktop/apple-podcast.svg" alt="google-podcast icon" />
+        <img src="/assets/desktop/google-podcasts.svg" alt="google-podcast icon" />
+        <img src="/assets/desktop/pocket-casts.svg" alt="google-podcast icon" />
+      </section>
+      <img class="dot" src = "assets/desktop/bg-pattern-dots.svg" alt="dot" />
+
+
+    </main>
+
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
